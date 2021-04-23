@@ -1395,6 +1395,7 @@ hr {
 a {
   background-color: #E1EDBFcc;
   box-shadow: 0 3px 0 #798067cc;
+  user-select: none;
   font-size:1.4em;
   font-weight: normal;
   font-family: monospace;
@@ -1429,6 +1430,12 @@ h1 {
 body {
   background-color: #E1EDBF;
   background-image: url('images/mononoke.webp');
+  user-select: none;
+  user-drag: none; 
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
