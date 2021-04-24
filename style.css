@@ -1429,7 +1429,7 @@ h1 {
 }
 body {
   background-color: #E1EDBF;
-  background-image: url('images/mononoke.webp');
+/*  background-image: url('images/mononoke.webp'); */
   user-select: none;
   user-drag: none; 
   -moz-user-select: none;
