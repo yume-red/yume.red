@@ -1405,7 +1405,7 @@ a {
   text-decoration: none;
   border-radius: 2.5px;
   margin-right: 20px;
-  cursor:url("/gallery/leaf.cur"), auto;
+  cursor: pointer;
 }
 a:hover {
   background-color: #ccffffbb;
