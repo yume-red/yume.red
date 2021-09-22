@@ -1387,10 +1387,10 @@ h2 {
   color: #FFFFFF;
 }
 @media only screen and (max-width: 600px) {
-  .entry {
-    margin: none;
-    width: 98%;
+  td:nth-child(2) {
+    display:none;
   }
+}
   display: block;
   border-color: #E1EDBF;
   border:none;
