@@ -1385,6 +1385,8 @@ h2 {
   font-family:monospace ;
   font-size: 14px;
   color: #FFFFFF;
+}
+hr {
   display: block;
   border-color: #E1EDBF;
   border:none;
@@ -1392,6 +1394,11 @@ h2 {
   height:1px;
   margin-right: auto;
 }
+@media only screen and (max-width: 600px) {
+  .entry {
+    margin: none;
+    width: 98%;
+  }
 a {
   color: #E1EDBF;
   font-weight: normal;
