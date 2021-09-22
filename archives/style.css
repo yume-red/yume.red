@@ -1394,11 +1394,6 @@ hr {
   height:1px;
   margin-right: auto;
 }
-@media only screen and (max-width: 600px) {
-  .entry {
-    margin: none;
-    width: 98%;
-  }
 a {
   color: #E1EDBF;
   font-weight: normal;
