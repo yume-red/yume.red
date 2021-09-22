@@ -1373,9 +1373,9 @@ h2 {
   td:nth-child(2) {
     display:none;
   }
-table {
-    padding: 3px;
-}
+  td:nth-child(4) {
+    display:none;
+  }
 }
 .entry {
   margin: 0 auto;
@@ -1441,13 +1441,12 @@ tr:hover {
   font-weight: bold;
   color: white;
 }
-
 body {
   background-color: #0F3325;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  margin: 0;
+  margin: 5px;
   overflow-x: hidden;
   cursor:url("/gallery/leaf.cur"), auto;
 }
