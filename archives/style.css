@@ -1373,8 +1373,8 @@ h2 {
   td:nth-child(2) {
     display:none;
   }
- table {
-    padding: 10px;
+table {
+    padding: 3px;
 }
 }
 .entry {
