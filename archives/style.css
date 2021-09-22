@@ -1369,7 +1369,7 @@ h2 {
   font-size: 26px;
   text-align: center;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   td:nth-child(2) {
     display:none;
   }
