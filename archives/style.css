@@ -1373,6 +1373,9 @@ h2 {
   td:nth-child(2) {
     display:none;
   }
+ table {
+    padding: 10px;
+}
 }
 .entry {
   margin: 0 auto;
@@ -1428,7 +1431,7 @@ h1 {
 table {
   margin: 0px;
   color: #E1EDBF;
-  padding: 45px;
+  padding: 40px;
   width: 100%;
 }
 th, td {
