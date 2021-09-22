@@ -1385,18 +1385,17 @@ h2 {
   font-family:monospace ;
   font-size: 14px;
   color: #FFFFFF;
-}
-@media only screen and (max-width: 600px) {
-  td:nth-child(2) {
-    display:none;
-  }
-}
   display: block;
   border-color: #E1EDBF;
   border:none;
   background-color: #E1EDBF;
   height:1px;
   margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  td:nth-child(2) {
+    display:none;
+  }
 }
 a {
   color: #E1EDBF;
