@@ -3,11 +3,10 @@
 <style>
 body {
   background: black;
-  font-family: "Serif"
-  font-size: 18px;
+  font-family: "Serif";
+  font-size: 20px;
   color: white;
-  background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("bg03.webp");
-/*  background-repeat: repeat-x; */
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("1_yukifujisawa2020.jpg");
 }
 a:link {
   color: white;
@@ -19,7 +18,7 @@ a:visited {
   color: white;
 }
 a:hover {
-  color: #E1EDBF;
+  text-indent: 24px; 
 }
 a:active {
   color: white;
@@ -29,23 +28,27 @@ h1 {
 }
 .grid {
   display: grid; 
-  grid-template-columns: 230px 1fr; 
+  grid-template-columns: 280px 1fr; 
   column-gap: 25px;
   padding: 25px;
-  max-width: 900px;
+  max-width: 80%;
 }
 .albums {
 }
-.lyrics div { display: none }
+.lyrics div {
+  display: none;
+}
 .lyrics div:target {
   display: block;
   border: 1px solid white;
   padding: 50px;
 }
 details {
+  text-shadow: 1px 1px 4px #000000;
   cursor: pointer;
 }
 blockquote {
+  text-shadow: 1px 2px 4px #000000;
   white-space: pre;
 }
 </style>
